@@ -169,11 +169,11 @@ export const AboutSection = () => {
      
                 <h4 className="uppercase font-semibold tracking-widest bg-gradient-to-r from-[#F3DFA7] to-[#C4A045] text-transparent bg-clip-text py-2">DeepLearning.AI</h4>
               <ul className="list-disc ml-3">
-                <li>AI for Medical specialisation (In Progress)</li>
+                <li>AI for Medical Specialisation</li>
               </ul>
                 <h4 className="uppercase font-semibold tracking-widest bg-gradient-to-r from-[#F3DFA7] to-[#C4A045] text-transparent bg-clip-text py-2">Amazon</h4>
               <ul className="list-disc ml-3">  
-                <li>AWS AI Practitioner (In Progress)</li>
+                <li>AWS AI Practitioner</li>
               </ul>
             </Card>
           </div>
