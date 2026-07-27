@@ -127,7 +127,7 @@ export const AboutSection = () => {
                   <TechIcon component={gradCap} className="size-10" />
                   <div className="mx-auto">
                     <h4 className="uppercase font-semibold tracking-widest bg-gradient-to-r from-[#F3DFA7] to-[#C4A045] text-center text-transparent bg-clip-text">University of Southampton</h4>
-                    <p className="text-sm text-center">MEng Computer Science with Artificial Intelligence | 2:1</p>
+                    <p className="text-sm text-center">MEng Computer Science with Artificial Intelligence | 1st Class</p>
                   </div>
                 </div>
                 <hr className="border-t-2 border-white/5 mt-4" />
