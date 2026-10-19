@@ -1,6 +1,7 @@
 
 import skinLesionWeb from "@/assets/images/skin_lesion_web2.png";
 import laptop from "@/assets/images/software-laptop.png";
+import chatbot from "@/assets/images/chatbot.png";
 import portfolioWeb from "@/assets/images/portfolioWeb.png";
 import tetricsImage from "@/assets/images/tetrics.png";
 import Image from "next/image";
@@ -13,6 +14,20 @@ import GithubIcon from "@/assets/icons/github.svg"
 
 
 const portfolioProjects = [
+   {
+    company: "AI City",
+    year: "2026",
+    title: "RAG-Based Citizens Advice Chatbot",
+    results: [
+      { title: "Built a RAG-based chatbot using React and Tailwind CSS to answer citizen queries on tax and civic services" },
+      { title: "Scraped and embedded 10,000+ pages from Citizens Advice and GOV.UK via the Iridis HPC cluster" },
+      { title: "Achieved 91% retrieval accuracy on domain-specific queries, developed as part of the AI City Southampton initiative" },
+    ],
+    linkName: "View Live Site",
+    link: "https://citizensadvicechat.vercel.app/chat",
+    readMoreLink: "https://github.com/nabilshanteer/aicity_chatbot.git",
+    image: chatbot,
+  },
   {
     company: "University of Southampton",
     year: "2025",
@@ -24,7 +39,7 @@ const portfolioProjects = [
     ],
     linkName: "Read More",
     link: "",
-    readMoreLink: "https://github.com/danteturay/Portfolio",
+    readMoreLink: "https://github.com/danteturay/fNIRS-lie-detection",
     image: laptop,
   },
   {
@@ -105,7 +120,7 @@ export const ProjectsSection = () => {
                   </ul>
                   
                     <div className="flex flex-row gap-4">
-                      {(projectIndex !== 0 && projectIndex !== 3 && projectIndex !== 1)  && (
+                      {(projectIndex !==1 && projectIndex !== 4 && projectIndex !== 2)  && (
                         <a href={project.link}>
                           <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                             <span>{project.linkName}</span>

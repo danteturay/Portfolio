@@ -22,17 +22,13 @@ export const HeroSection = () => {
   <div className="font-serif text-3xl md:text-4xl text-center tracking-wide flex flex-col md:flex-row items-center gap-2 md:gap-4">
   {/* Line 1: Student • AI Developer */}
   <div className="flex gap-3 md:gap-4">
-    <span>Student</span>
+    <span>AI/ML Engineer</span>
     <span className="text-[#C4A045]">&bull;</span>
-    <span>AI Developer</span>
-  </div>
-  <div className="flex gap-3 md:hidden">
-    <span className="text-[#C4A045]">&bull;</span>
-    <span>Data Science</span>
+    <span>Full-Stack Developer</span>
   </div>
   <div className="hidden md:flex gap-4">
     <span className="text-[#C4A045]">&bull;</span>
-    <span>Data Science</span>
+    <span>AI Research</span>
   </div>
 </div>
 
